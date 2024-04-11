@@ -6,7 +6,7 @@ $Now = Get-Date -format yyyy-MM-dd_HH-mm
 Rename-Item -Path D:\export_vm\<NameVM> -NewName "<NameVM>_$Now"
 
 # Параметры
-$Path = "D:\export_vm"
+$Path = "D:\export_vm" # Ваш путь до каталога
 $Days = 3 # Количество дней
 
 # Вычисляем дату, которая будет использоваться для фильтрации
